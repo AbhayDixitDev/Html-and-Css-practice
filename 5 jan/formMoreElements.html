@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Elements</title>
+</head>
+<body>
+	<h1>Form Elements</h1>
+	<form>
+		<fieldset>
+			<legend>Personal Details</legend>
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name"><br><br>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email"><br><br>
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password"><br><br>
+			<label for="tel">Mobile Number</label>
+			<input type="tel" id="tel" name="tel"><br><br>
+		</fieldset>
+		<fieldset>
+			<legend>Address</legend>
+			<label for="address">Address</label>
+			<textarea id="address" name="address" rows="5" cols="30"></textarea><br><br>
+			<label for="city">City</label>
+			<select id="city" name="city">
+				<option value="select">Select</option>
+				<option value="cape town">Cape Town</option>
+				<option value="johannesburg">Johannesburg</option>
+				<option value="durban">Durban</option>
+				<option value="pretoria">Pretoria</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Gender</legend>
+			<input type="radio" name="gender" value="male"> Male<br>
+			<input type="radio" name="gender" value="female"> Female<br>
+			<input type="radio" name="gender" value="other"> Other
+		</fieldset>
+		<fieldset>
+			<legend>Interests</legend>
+			<input type="checkbox" name="interest" value="reading"> Reading<br>
+			<input type="checkbox" name="interest" value="writing"> Writing<br>
+			<input type="checkbox" name="interest" value="coding"> Coding
+		</fieldset>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
